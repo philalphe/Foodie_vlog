@@ -1,0 +1,43 @@
+body {
+	margin: 0px;
+	/*background: url(img/background.jpg);*/
+	background: linear-gradient(to right, orange, white, green);
+	/*background-size: 1200px;*/
+	
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 3em;
+	border-bottom: 2px solid light green;
+	border-right: 2px solid light green;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px green;
+	margin-top: 10px;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+footer{
+	font-family: arial;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+}

@@ -1,0 +1,95 @@
+body {
+	margin: 0px;
+	background: url(img/afrik.jpg);
+	background-size: 1100px;
+	
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Akronim', fantasy;
+	font-style: italic;
+	font-size: 3em;
+	border-bottom: 2px solid light black;
+	border-right: 2px solid light black;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px black;
+	margin-top: 10px;
+}
+
+h2{
+	font-family: 'Akronim', arial;
+}
+
+h3{
+	font-family: 'Akronim', arial;
+	color: orange;
+
+}
+
+p, li{
+	font-family: 'Trade Winds', fantasy;
+}
+
+div img{
+	margin: left;
+	display: block;
+	margin: auto;
+
+}
+
+td img{
+	border-radius: 90%;
+	width: 500px;
+	height: 500px;
+	border: none;
+	padding: 15px;
+
+}
+
+.borderimg{
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+	border: white;
+
+}
+
+.box{
+
+	border-radius: 90%;
+	width: 500px;
+	height: 500px;
+	border: none;
+	padding: 15px;
+
+}
+
+/*li{
+	font-family: 'Trade Winds', fantasy;
+}*/
+
+button{
+	font-family: fantasy;
+	background-color: orange;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+footer{
+	font-family: arial;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+}
